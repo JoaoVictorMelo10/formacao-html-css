@@ -7,7 +7,8 @@
 }
 
 body {
-    height: 100vh;
+    /* agora que avançamos mais no conteudo, podemos retirar o height 100vh, pois o conteudo da pagina pode ultrapassar a altura da tela. */
+    /* height: 100vh; */
     box-sizing: border-box;
     /* o box-sizing: border-box; faz com que o padding e a borda sejam incluídos na largura e altura totais do elemento.  */
     background-color: black;
@@ -26,7 +27,7 @@ img {
 */
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,3 +92,13 @@ img {
     transition: all 0.7s ease-in-out;
 }
 
+.rodape {
+    padding: 24px;
+    text-align: center;
+    background-color: #22D4FD;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
