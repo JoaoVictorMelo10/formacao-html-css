@@ -80,4 +80,14 @@ img {
 
 }
 
+.apresentacao__links__link:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+    background-color: #272727;
+}
+
+.apresentacao_imagem-principal:hover {
+    transform: scale(1.01);
+    transition: all 0.7s ease-in-out;
+}
 
