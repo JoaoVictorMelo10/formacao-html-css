@@ -144,6 +144,10 @@ img {
     gap: 15px;
 }
 
+.curriculo__principal__conteudo__titulo {
+    padding:  0 0 3% 0;
+}
+
 .curriculo__conteudo__destaque {
     color: #4AC4FF;
 }
