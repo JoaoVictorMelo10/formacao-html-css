@@ -29,6 +29,7 @@ body {
     font-size: 24px;
     font-weight: 600;
     color:#22D4FD;
+    text-decoration: none;
 }
 
 /*
@@ -117,4 +118,32 @@ img {
     font-size: 24px;
     font-weight: 400;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.curriculo__principal {
+    padding: 2% 15% 2% 15%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.curriculo__principal__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.curriculo__conteudo__destaque {
+    color: #4AC4FF;
 }
