@@ -47,6 +47,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap:82px;
 }
 
 .apresentacao__conteudo {
@@ -157,4 +158,12 @@ body {
 
 .curriculo__conteudo__destaque {
     color: var(--cor-terciaria)
+}
+
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+
+    }
 }
